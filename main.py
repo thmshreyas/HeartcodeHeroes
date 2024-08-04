@@ -6,7 +6,7 @@ import requests
 import json
 import os
 import google.generativeai as genai
-genai.configure(api_key='AIzaSyDFL54swPkUD1MpCH0ELnND9xwhSrYfRDE')
+genai.configure(api_key='API_KEY')
 
 app=Flask(__name__)
 
