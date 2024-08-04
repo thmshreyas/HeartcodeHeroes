@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayadeva Hospital</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .background-image {
+            background-image: url('../static/backgroundimage.jpeg');
+            background-size: cover;
+            background-position: center;
+            width: 50%; /* Adjust the width to cover the left half */
+            height: 100vh; /* Adjust the height to cover the entire viewport height */
+            float: left; /* Float the background image to the left */
+        }
+        .content-container {
+            width: 50%; /* Adjust the width to cover the right half */
+            height: 100vh; /* Adjust the height to cover the entire viewport height */
+            float: left; /* Float the content container to the left */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .content {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="content-container">
+        <div class="container mx-auto p-8">
+            <h1 class="text-4xl font-bold mb-4">Welcome to Jayadeva Hospital</h1>
+            <p class="text-lg mb-6">Enhance your health tracking experience today!</p>
+            <button onclick="location.href='/login'" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline">
+                Let's Begin
+            </button>
+        </div>
+    </div>
+</body>
+</html>

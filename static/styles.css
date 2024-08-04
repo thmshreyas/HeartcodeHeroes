@@ -1,0 +1,102 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+html{
+    background-image: url("../static/basic.jpg");  
+    background-position: center;
+    background-size: 45%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    color: white;
+}
+
+.navbar .menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .menu li {
+    margin-left: 20px;
+}
+
+.navbar .menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../static/basic.jpg') no-repeat center center/cover;
+    position: relative;
+}
+
+.hero .hero-content {
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100dvw;
+}
+
+.container {
+    padding: 20px;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.flex {
+    display: flex;
+}
+
+.half {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
